@@ -1,3 +1,66 @@
+/*Global*/
 body {
-  background-color: #282828;
+  background-color: rgb(40,40,40);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  color: white;
+  font-family: sans-serif;
+}
+/*
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}*/
+
+/*Classes*/
+.box-header {
+  text-align: center;
+}
+
+.name-header {
+  font-size: 53px;
+}
+
+.sub-text-header {
+  font-size: 32px;
+/*Glöm inte att designa*/
+.nav-bar {
+  border: 2px solid rgb(40,40,40); /*gör border osynlig när du designar*/
+  width: 600px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: 50px;
+  margin-top: -205px;
+}
+
+.nav-bar-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(40,40,40);
+}
+
+.nav-list {
+  float: left;
+}
+
+.nav-list, a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*Ändrar färgen på menyn när du håller muspekaren över*/
+.nav-list a:hover {
+  background-color: rgb(21, 196, 129);
 }
