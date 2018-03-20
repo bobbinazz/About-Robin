@@ -28,7 +28,7 @@ progress {
 }
 
 /*Classes*/
-.box-header {
+#box-header {
   text-align: center;
 }
 
@@ -77,7 +77,7 @@ progress {
 }
 
 /*about-me*/
-.box-about-me {
+#box-about-me {
   width: 1000px;
   height: 500px;
   padding: 10px;
@@ -97,7 +97,7 @@ progress {
 }
 
 /*Texten/Mönster i my-skills*/
-.box-my-skills {
+#box-my-skills {
   width: 1000px;
   height: 500px;
   padding: 10px;
