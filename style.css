@@ -11,6 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: white;
   font-family: sans-serif;
+  font-size: 20px;
 }
 
 ul {
@@ -71,7 +72,7 @@ ul {
 /*about-me*/
 .box-about-me {
   width: 1000px;
-  height: 600px;
+  height: 500px;
   padding: 10px;
   margin-left: 22%;
   border: 5px solid gray;
@@ -80,4 +81,8 @@ ul {
 /*texten i box-about-me*/
 .about-me {
   text-align: center;
+}
+
+.about-me-header {
+  font-size: 36px;
 }
