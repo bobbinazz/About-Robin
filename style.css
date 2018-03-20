@@ -12,12 +12,12 @@ p {
   color: white;
   font-family: sans-serif;
 }
-/*
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}*/
+}
 
 /*Classes*/
 .box-header {
@@ -29,16 +29,17 @@ ul {
 }
 
 .sub-text-header {
-  font-size: 32px;
+  font-size: 18px;
+}
 /*Glöm inte att designa*/
 .nav-bar {
   border: 2px solid rgb(40,40,40); /*gör border osynlig när du designar*/
   width: 600px;
-  height: 100px;
-  top: 50%;
+  height: 150px;
+  top: 80%;
   left: 50%;
   margin-left: 50px;
-  margin-top: -205px;
+  margin-top: -130px;
 }
 
 .nav-bar-items {
@@ -51,6 +52,8 @@ ul {
 
 .nav-list {
   float: left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
 }
 
 .nav-list, a {
