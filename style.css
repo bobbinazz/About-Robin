@@ -67,3 +67,17 @@ ul {
 .nav-list a:hover {
   background-color: rgb(21, 196, 129);
 }
+
+/*about-me*/
+.box-about-me {
+  width: 1000px;
+  height: 600px;
+  padding: 10px;
+  margin-left: 22%;
+  border: 5px solid gray;
+}
+
+/*texten i box-about-me*/
+.about-me {
+  text-align: center;
+}
