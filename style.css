@@ -95,13 +95,23 @@ progress {
 .about-me-header {
   font-size: 36px;
 }
+/*Spacer*/
+#spacer {
+  width: 1000px;
+  height: 100px;
+  padding: 10px;
+  margin-top: 180px;
+  margin-left: 22%;
+  margin-bottom: 5;
+  border: 3.5px solid rgb(40,40,40); /*Gör osynlig*/
+}
 
 /*Texten/Mönster i my-skills*/
 #box-my-skills {
   width: 1000px;
   height: 500px;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 60px;
   margin-left: 22%;
   margin-bottom: 200px;
   border: 3.5px solid gray;
