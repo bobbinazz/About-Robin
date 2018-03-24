@@ -39,6 +39,12 @@ progress {
 .sub-text-header {
   font-size: 18px;
 }
+
+.sub-text-header {
+    border: 2px solid rgb(40,40,40);
+    margin-top: -40px;
+
+}
 /*Glöm inte att designa*/
 .nav-bar {
   border: 2px solid rgb(40,40,40); /*gör border osynlig när du designar*/
@@ -181,3 +187,4 @@ progress {
 .progress-bar-4 {
   padding-left: 422px;
 }
+/*Footer*/
