@@ -75,7 +75,34 @@ progress {
 .nav-list a:hover {
   background-color: rgb(21, 196, 129);
 }
+/*<!-- Social media meny !!TEST!! -->*/
+.box-contact-2 {
+  border: 2px solid rgb(40,40,40);
+  width: 600px;
+  height: 150px;
+  top: 80%;
+  left: 50%;
+  margin-left: 1356px;
+  margin-top: -139px;
+}
 
+.box-contact-2 a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.box-contact-2 a:hover {
+    background-color: rgb(21, 196, 129);
+}
+
+.active {
+    background-color: #4CAF50;
+}
 /*about-me*/
 #box-about-me {
   width: 1000px;
