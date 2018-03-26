@@ -27,6 +27,7 @@ progress {
   border-radius: 9px;
 }
 
+
 /*Classes*/
 #box-header {
   text-align: center;
@@ -114,7 +115,7 @@ progress {
   width: 1000px;
   height: 500px;
   padding: 10px;
-  margin-top: 180px;
+  margin-top: 130px;
   margin-left: 22%;
   margin-bottom: 410px;
   border: 3.5px solid gray;
@@ -146,7 +147,7 @@ progress {
   padding: 10px;
   margin-top: 60px;
   margin-left: 22%;
-  margin-bottom: 200px;
+  margin-bottom: 170px;
   border: 3.5px solid gray;
 }
 
@@ -186,5 +187,12 @@ progress {
 
 .progress-bar-4 {
   padding-left: 422px;
+}
+/*Tillbaka till toppen knappen*/
+#button-back-to-top {
+
+}
+#button-back-to-top a:hover {
+    background-color: rgb(21, 196, 129);
 }
 /*Footer*/

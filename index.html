@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robin Nordenstad</title>
     <!-- Länkar min css till html -->
     <link rel="stylesheet" href="style.css">
@@ -14,30 +14,32 @@
     <link rel="icon" href="favicon.ico"><!-- Pepe favicon -->
   </head>
   <body>
-    <!-- Lägger till en header med information om mig  -->
-    <div id="box-header">
-      <div class="header">
-        <h1 class="name-header">Robin Nordenstad</h1>
-        <div class="box-sub-text-header">
-          <h3 class="sub-text-header">GAMER - STUDENT - PROGRAMMING ENITHUSIAST</h3>
+    <div class="top-page">
+      <!-- Lägger till en header med information om mig  -->
+      <div id="box-header">
+        <div class="header">
+          <h1 class="name-header">Robin Nordenstad</h1>
+          <div class="box-sub-text-header">
+            <h3 class="sub-text-header">GAMER - STUDENT - PROGRAMMING ENITHUSIAST</h3>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- !OBS! gör om till nav bar" -->
-    <!--Designa nav-bar -->
-    <div class="nav-bar">
-      <ul class="nav-bar-items">
-        <li class="nav-list"><a href="#box-header">ABOUT ME</a></li>
-        <li class="nav-list"><a href="#spacer">MY SKILLS</a></li>
-        <li class="nav-list"><a href="#">CONTACT</a></li>
-      </ul>
-    </div>
-    <!-- Social media meny  -->
-    <div class="box-contact-2">
-      <a href="https://www.facebook.com/bobbinNnN" target="_blank"><i class="fab fa-facebook-square"></i></a> <!-- Facebook -->
-      <a href="https://twitter.com/BobbinAzz" target="_blank"><i class="fab fa-twitter-square"></i></a> <!-- Twitter -->
-      <a href="https://www.linkedin.com/in/robin-n-761a67117/" target="_blank"><i class="fab fa-linkedin"></i></a> <!-- Linkedin -->
-      <a href="https://github.com/bobbinazz" target="_blank"><i class="fab fa-github"></i></a> <!-- Github -->
+      <!-- !OBS! gör om till nav bar" -->
+      <!--Designa nav-bar -->
+      <div class="nav-bar">
+        <ul class="nav-bar-items">
+          <li class="nav-list"><a href="#box-header">ABOUT ME</a></li>
+          <li class="nav-list"><a href="#spacer">MY SKILLS</a></li>
+          <li class="nav-list"><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <!-- Social media meny  -->
+      <div class="box-contact-2">
+        <a href="https://www.facebook.com/bobbinNnN" target="_blank"><i class="fab fa-facebook-square"></i></a> <!-- Facebook -->
+        <a href="https://twitter.com/BobbinAzz" target="_blank"><i class="fab fa-twitter-square"></i></a> <!-- Twitter -->
+        <a href="https://www.linkedin.com/in/robin-n-761a67117/" target="_blank"><i class="fab fa-linkedin"></i></a> <!-- Linkedin -->
+        <a href="https://github.com/bobbinazz" target="_blank"><i class="fab fa-github"></i></a> <!-- Github -->
+      </div>
     </div>
     <!-- Skapar ytan där jag berättar om mig själv -->
     <div id="box-about-me">
@@ -69,6 +71,10 @@
           Ius iudico bonorum assueverit in, ex ius fabulas iracundia.<br>
         </p>
       </div>
+    </div><!-- Här slutar box-about-me -->
+    <!-- Knapp som gör så att man kan ta sig ner till my-skills -->
+    <div class="button-down-next">
+      <a href="#box-my-skills"><i class="fas fa-arrow-down"></i></a>
     </div>
     <!--------------------------------------------------------------------->
     <!--------------------------------------------------------------------->
@@ -107,6 +113,9 @@
       <div class="progress-bar-4">
         <progress value="14" max="100">0%</progress>
       </div>
+    </div><!-- Här slutar box-my-skills -->
+    <div class="button-back-to-top">
+      <a href="#box-header"><i class="fas fa-arrow-up"></i></a>
     </div>
   </body>
 </html>
